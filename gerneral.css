@@ -1,0 +1,112 @@
+/*style for the website in the table*/
+th{
+    font-family: "Courier New";
+    color: rgb(43, 134, 226);
+    width: 3%;
+    border: 1px solid;
+}
+
+a.table{
+    color: rgb(43, 134, 226);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+/*setting the background color for the website*/
+body{
+    background-color:rgb(20, 37, 55,255);
+}
+
+/*functions for the image*/
+.center{ /*this is to center the image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.left{ /*thi is to display the image from the left of the screen*/
+    display: block;
+    float: left;
+    width: 24%;
+}
+
+.right{ /*this is to display the image from the right of the screen*/
+    display: block;
+    float: right;
+    width: 24%;
+}
+
+/*paragraph element design*/
+p{
+    color: rgb(43,134,226);
+    font-family: 'Courier New';
+}
+
+p.intro{ /*Might be only used during the home page of the project*/
+    border: 1px dotted;
+    text-align: center;
+    font-size: 50px;
+}
+
+p.fromRight{ /*sets the text to the right of the page*/
+    border: 1px dotted;
+    text-align: right;
+    font-size: 30px;
+}
+
+p.fromLeft{ /*sets the text to the left of the page*/
+    border: 1px dotted;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+p.center{ /*centers the text on the page*/
+    border: 1px dotted;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*headers*/
+h1,h2,h3,h4,h5,h6{
+    color: rgb(43, 134, 226);
+    font-family: 'Courier New';
+    text-decoration: underline;
+    text-align: center;
+}
+
+.headerLeft{
+    text-align: left;
+}
+
+/*image code*/
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img{
+    display: block;
+    width: 1525px;
+    height: 400px;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #335aa5;
+    color: rgb(195, 210, 224);
+    font-size: 45px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/*underline the bold text in the strong element*/
+strong.underlinedStrong{  
+    text-decoration: underline;
+}
